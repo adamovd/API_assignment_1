@@ -1,0 +1,36 @@
+{
+  "cartId": "6ca924ae-c946-4421-8371-b3cb2ccee1e2",
+  "products": [
+    {
+      "productId": "0cb07b8e-1a9f-4016-b1bd-ea4a972a2e10",
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "price": 159,
+      "type": "VHS"
+    },
+    {
+      "productId": "67b7958d-8b64-40fb-b462-1167cc70f377",
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "price": 59,
+      "type": "DVD"
+    },
+    {
+      "productId": "e93734f4-2ef3-4a66-bd05-fcfd9b11107f",
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "price": 119,
+      "type": "BLURAY"
+    },
+    {
+      "productId": "2acd001f-adcf-43db-b963-3fceb30bb5e1",
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "price": 119,
+      "type": "BLURAY"
+    },
+    {
+      "productId": "c921276e-8fc8-447e-bf6f-61d6e90e6289",
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "price": 59,
+      "type": "DVD"
+    }
+  ],
+  "totalAmount": 515
+}

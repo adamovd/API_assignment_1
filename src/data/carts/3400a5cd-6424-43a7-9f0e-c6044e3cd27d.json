@@ -1,0 +1,18 @@
+{
+  "cartId": "3400a5cd-6424-43a7-9f0e-c6044e3cd27d",
+  "products": [
+    {
+      "productId": "6f0e9e1e-342c-442e-a8b6-a51c22d5a528",
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "price": 159,
+      "type": "VHS"
+    },
+    {
+      "productId": "1d2a7403-93da-4122-98a7-7f5141e73c2b",
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "price": 119,
+      "type": "BLURAY"
+    }
+  ],
+  "totalAmount": 278
+}

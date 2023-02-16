@@ -1,0 +1,42 @@
+type Product {
+  productId: ID!
+  title: String!
+  price: Int!
+}
+
+type Cart {
+  cartId: ID!
+  products: [Product]
+  totalAmount: Int
+}
+
+input CreateProductInput {
+  title: String!
+  price: Int!
+  type: MovieType!
+}
+
+type DeletedResourceResponse {
+  deleteMessage: String
+  deletedId: ID
+}
+
+enum MovieType {
+  VHS
+  DVD
+  BLURAY
+}
+
+type Query {
+  getProductById(productId: ID!): Product
+  getCartById(cartId: ID!): Cart
+  getAllProducts: [Product]
+}
+
+type Mutation {
+  createProduct(input: CreateProductInput!): Product
+  createCart: Cart
+  addProductToCart(cartId: ID!, productId: ID!): Cart
+  deleteProductById(cartId: ID!, productId: ID!): DeletedResourceResponse
+  deleteCartById(cartId: ID!): DeletedResourceResponse
+}
